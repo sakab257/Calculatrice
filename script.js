@@ -10,7 +10,7 @@ function appendToInput(input){
 
 function calculate(){
     try{
-        calcInput.value = eval(calcInput.value);
+        calcInput.value = Math.round(eval(calcInput.value).toFixed(5)*1e10)/1e10;
     } catch(e){
         calcInput.value = "Erreur, cliquez sur C";
     }
