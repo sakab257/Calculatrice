@@ -10,7 +10,7 @@ body{
 }
 
 #calculatrice{
-    
+    border: 10px solid white;
     background-color: rgb(50, 50, 50);
     width: 400px;
     height: 500px;
@@ -21,6 +21,7 @@ body{
 }
 
 input{
+    border: 0px;
     text-align: end;
     background-color: #444;
     color: white;
